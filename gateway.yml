@@ -5,6 +5,9 @@ spring:
     name: gateway
   profiles:
     active: dev
+api:
+  encrypt:
+    key: d7b85c6e414dbcda
 zuul:
   routes:
     api-index:
