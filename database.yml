@@ -30,7 +30,7 @@ spring:
         enabled: true
         login-username: druid_admin
         login-password: 123456
-#logging:
- # level:
-  #  com:
-   #   lynn: DEBUG
+logging:
+ level:
+    com:
+     lynn: DEBUG
