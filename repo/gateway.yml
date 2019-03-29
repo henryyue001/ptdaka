@@ -14,7 +14,7 @@ zuul:
       path: /api/comment/**
       serviceId: comment
     api-user:
-      url: http://localhost:8084/user
+      url: http://localhost:8084
       serviceId: user
     api-article:
       path: /api/article/**
